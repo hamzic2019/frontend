@@ -117,7 +117,7 @@ const LandingPage = ({user, setUser}) => {
         }
 
 
-        <button className='addBtn' onClick={handelModalState}>ADD NEW TASK</button>
+        {Object.keys(user).length === 0 && <button className='addBtn' onClick={handelModalState}>ADD NEW TASK</button>}
 
       
         {modal && <div className='modal'>
@@ -130,6 +130,8 @@ const LandingPage = ({user, setUser}) => {
               </form>
               
         </div>}
+
+
 
     </div>
   )

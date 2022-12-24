@@ -117,7 +117,7 @@ const LandingPage = ({user, setUser}) => {
         }
 
 
-        {Object.keys(user).length === 0 && <button className='addBtn' onClick={handelModalState}>ADD NEW TASK</button>}
+        <button className='addBtn' onClick={handelModalState}>ADD NEW TASK</button>
 
       
         {modal && <div className='modal'>

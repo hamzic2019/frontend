@@ -113,11 +113,14 @@ const LandingPage = ({user, setUser}) => {
 
             <h1>Taskker<span style={{color: '#d35400'}}>.</span></h1>
             :
+            <>
             <Task tasks={tasks} handelRemoveTask={handelRemoveTask} />
+            <button className='addBtn' onClick={handelModalState}>ADD NEW TASK</button>
+            </>
         }
 
 
-        <button className='addBtn' onClick={handelModalState}>ADD NEW TASK</button>
+        
 
       
         {modal && <div className='modal'>

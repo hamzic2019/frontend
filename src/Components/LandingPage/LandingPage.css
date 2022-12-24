@@ -1,0 +1,77 @@
+.wrapper {
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+h1 {
+    font-size: 150px;
+}
+
+.addBtn {
+    position: absolute;
+    right: 6px;
+    bottom: 10px;
+    height: 50px;
+    width: 250px;
+
+    border-radius: 5px;
+    outline: none;
+    border:0px;
+
+    background-color: #3c97e7;
+    color:white;
+    font-size: 22px;
+
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.329);
+}
+
+.addBtn:hover {
+    background-color: #3183cb;
+}
+
+.addBtn:active {
+    background-color: #1d5b90;
+}
+
+
+.modal {
+    position:absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+    background-color: rgb(0, 0, 0, 0.7);
+
+    width: 100%;
+    height: 94vh;
+}
+
+.modal-forma {
+    width: 750px;
+    height: 150px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 25px;
+    
+}
+
+.modal-forma input {
+    height: 50px;
+    width: 350px;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+.modal-forma button {
+    height: 50px;
+    width: 150px;
+}

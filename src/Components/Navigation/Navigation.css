@@ -1,0 +1,32 @@
+.navigation {
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.362);
+}
+
+h3 {
+    font-size: 26px;
+}
+
+.logoutBtn {
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    outline: none;
+    border:0px;
+
+    background-color: #e74c3c;
+    color:white;
+    font-size: 18px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+}
